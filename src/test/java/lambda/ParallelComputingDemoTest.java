@@ -12,4 +12,10 @@ class ParallelComputingDemoTest {
         ParallelComputingDemo parallelComputingDemo = new ParallelComputingDemo();
         System.out.println(parallelComputingDemo.parallelArraySum(SampleData.albumList));
     }
+
+    @Test
+    void parallelPrint(){
+        ParallelComputingDemo parallelComputingDemo = new ParallelComputingDemo();
+        parallelComputingDemo.parallelPrint();
+    }
 }
